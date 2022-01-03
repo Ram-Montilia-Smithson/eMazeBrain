@@ -1,4 +1,3 @@
-// https://auth.emazebrain.com/
 const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
@@ -27,5 +26,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Example app listening at localhost:${port}`)
+    console.log(`Example app listening at https://emazebrain.herokuapp.com:${port}`)
 })
